@@ -1,5 +1,5 @@
 /*
- * Author: Schuyler schuyler.smith@nutrien.com
+ * Author: Schuyler Smith <schuyler-smith.github.io>
  */
 
 process BRACKEN {

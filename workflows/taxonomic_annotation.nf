@@ -1,5 +1,5 @@
 /*
- * Author: Schuyler schuyler.smith@nutrien.com
+ * Author: Schuyler Smith <schuyler-smith.github.io>
  */
 
 include { KRAKEN }          from "${baseDir}/modules/taxonomic_assignment/kraken"

@@ -1,5 +1,5 @@
 /*
- * Author: Schuyler schuyler.smith@nutrien.com
+ * Author: Schuyler Smith <schuyler-smith.github.io>
  */
 
 include { DIAMOND_BLASTX }   from "${baseDir}/modules/protein_annotation/diamond"
@@ -19,5 +19,5 @@ workflow PROTEIN_ANNOTATION {
     DIAMOND_BLASTX (reads, PROTEIN_DB, diamond_db, dmnd_out_fmt, dmnd_blast_cols)
     DAA = DIAMOND_BLASTX.out.daa
     MEGAN (DAA, megan_db)
-    
+
 }

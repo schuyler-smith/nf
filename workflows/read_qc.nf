@@ -1,5 +1,5 @@
 /*
- * Author: Schuyler schuyler.smith@nutrien.com
+ * Author: Schuyler Smith <schuyler-smith.github.io>
  */
 
 include { FASTQC }          from "${baseDir}/modules/read_qc/fastqc"
