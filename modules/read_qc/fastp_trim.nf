@@ -1,3 +1,7 @@
+/*
+ * Author: Schuyler schuyler.smith@nutrien.com
+ */
+
 process FASTP_TRIM {
     tag "$meta.id"
 

@@ -1,3 +1,7 @@
+/*
+ * Author: Schuyler schuyler.smith@nutrien.com
+ */
+
 process MEGAN {
     tag     "$meta.id"
 

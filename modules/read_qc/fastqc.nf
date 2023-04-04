@@ -1,3 +1,7 @@
+/*
+ * Author: Schuyler schuyler.smith@nutrien.com
+ */
+
 process FASTQC {
     tag "$meta.id"
 
